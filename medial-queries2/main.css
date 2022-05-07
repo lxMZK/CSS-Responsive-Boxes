@@ -1,3 +1,48 @@
+*{
+  border: 1px solid black;
+  text-align: center;
+}
+
 body {
   background: papayawhip;
+}
+
+.container{
+  min-height: 100vh;
+}
+
+.container,.containerb{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  min-width: 100%;
+}
+
+.a,.f{
+  flex: 1;
+  min-width: 100%;
+  min-height: 10vh;
+}
+
+.b{
+  flex: 3;
+  min-height: 40vh;
+  min-width: 100%;
+}
+
+.c,.d,.e{
+  flex:1;
+  min-height: 10vh;
+}
+
+@media (min-width: 600px) {
+  .b{
+    min-width: 100%
+  }
+  .containerb{
+    min-width: 60%
+  }
+  .f{
+    min-width: 20%
+  }
 }
