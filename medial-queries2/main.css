@@ -1,4 +1,4 @@
-*{
+* {
   border: 1px solid black;
   text-align: center;
 }
@@ -7,42 +7,48 @@ body {
   background: papayawhip;
 }
 
-.container{
+.container {
   min-height: 100vh;
 }
 
-.container,.containerb{
+.container,
+.containerb {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   min-width: 100%;
 }
 
-.a,.f{
+.a,
+.f {
   flex: 1;
   min-width: 100%;
   min-height: 10vh;
 }
 
-.b{
+.b {
   flex: 3;
   min-height: 40vh;
   min-width: 100%;
 }
 
-.c,.d,.e{
-  flex:1;
+.c,
+.d,
+.e {
+  flex: 1;
   min-height: 10vh;
 }
 
 @media (min-width: 600px) {
-  .b{
+  .b {
     min-width: 100%
   }
-  .containerb{
+
+  .containerb {
     min-width: 60%
   }
-  .f{
+
+  .f {
     min-width: 20%
   }
 }

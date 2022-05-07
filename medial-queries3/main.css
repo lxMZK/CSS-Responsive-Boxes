@@ -40,16 +40,16 @@ body {
 }
 
 @media (min-width: 600px) {
-  .containerb{
+  .containerb {
     min-width: 60%;
   }
 
   .b,
-.c,
-.d,
-.e,
-.f,
-.g {
-  min-width: none;
-}
+  .c,
+  .d,
+  .e,
+  .f,
+  .g {
+    min-width: none;
+  }
 }
